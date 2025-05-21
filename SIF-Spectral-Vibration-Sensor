@@ -1,0 +1,21 @@
+SIF-Spectral-Vibration-Sensor/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── docs/
+│   ├── 00_SIF_OVERVIEW_AND_INNOVATION.md
+│   ├── 01_THEORETICAL_FOUNDATION_DSFT.md
+│   ├── 02_ALGORITHMIC_GOVERNANCE.md
+│   ├── 03_TIERED_IMPLEMENTATIONS_OVERVIEW.md
+│   ├── 04_CLASS_1_LOW_BUDGET_SIF.md
+│   ├── 05_CLASS_2_MEDIUM_BUDGET_SIF.md
+│   ├── 06_CLASS_3_HIGH_END_SIF.md
+│   └── 07_CONNECTIVITY_AND_INTEGRATION_CONCEPTS.md
+└── examples/
+    ├── class_1_low_budget_rp2040/
+    │   └── main_conceptual.py
+    ├── class_2_medium_budget_esp32s3/
+    │   └── main_conceptual.py
+    └── class_3_high_end_stm32_jetson/
+        ├── stm32_main_conceptual.c
+        └── jetson_dsft_conceptual.py
